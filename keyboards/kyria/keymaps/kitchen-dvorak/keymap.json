@@ -47,7 +47,7 @@
       "KC_V",
       "KC_Z",
       "KC_RSFT",
-      "RGB_HUI",
+      "KC_NO",
       "KC_LALT",
       "MO(1)",
       "LGUI_T(KC_BSPC)",
@@ -55,8 +55,8 @@
       "KC_ENT",
       "LT(3,KC_SPC)",
       "MO(2)",
-      "RGB_TOG",
-      "RGB_MOD"
+      "KC_NO",
+      "ANY(LGUI(LCTL(KC_Q)))"
     ],
     [
       "KC_TILD",
@@ -164,7 +164,7 @@
     ],
     [
       "LGUI(KC_GRV)",
-      "KC_NO",
+      "RGB_TOG",
       "KC_NO",
       "KC_NO",
       "KC_NO",
@@ -176,8 +176,8 @@
       "KC_NO",
       "KC_NO",
       "KC_TRNS",
-      "KC_NO",
-      "KC_NO",
+      "RGB_MOD",
+      "RGB_SPI",
       "LGUI(KC_LCBR)",
       "LGUI(KC_RCBR)",
       "KC_NO",
@@ -188,8 +188,8 @@
       "KC_NO",
       "KC_NO",
       "KC_TRNS",
-      "KC_NO",
-      "KC_NO",
+      "RGB_RMOD",
+      "RGB_SPD",
       "LGUI(KC_LBRC)",
       "LGUI(KC_RBRC)",
       "KC_NO",
@@ -215,5 +215,5 @@
       "KC_TRNS"
     ]
   ],
-  "author": ""
+  "author": "kitchen@kitchen.io"
 }
