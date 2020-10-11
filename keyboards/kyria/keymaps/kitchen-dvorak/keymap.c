@@ -107,3 +107,29 @@ void oled_task_user(void) {
     }
 }
 #endif
+
+#ifdef ENCODER_ENABLE
+void encoder_update_user(uint8_t index, bool clockwise) {
+    // index 0 is left hand
+    // index 1 is right hand
+    if (index == 1) {
+        switch (biton32(layer_state)) {
+            // TODO this layer check doesn't seem to be working.
+            // either the layer check is not working or the actual mods aren't working.
+            // troubleshoot.
+            case 3:
+                if (clockwise) {
+                    tap_code16(S(A(KC_VOLU)));
+                } else {
+                    tap_code16(S(A(KC_VOLD)));
+                }
+            default:
+                if (clockwise) {
+                    tap_code(KC_VOLU);
+                } else {
+                    tap_code(KC_VOLD);
+                }
+        }
+    }
+}
+#endif
