@@ -8,10 +8,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT, DV_SCLN, DV_Q,    DV_J,   DV_K,    DV_X,   KC_NO,           KC_NO,               KC_NO,  KC_NO,         DV_B,  DV_M,  DV_W,     DV_V, DV_Z, KC_RSFT,
                                    KC_NO,  KC_LALT, MO(1),  LGUI_T(KC_BSPC), KC_LCTL,             KC_ENT, LT(3, KC_SPC), MO(2), KC_NO, KC_MUTE), 
     [1] = LAYOUT(
-        KC_TILD, KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, LGUI(KC_BSPC),
-        KC_TRNS, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, DV_LCBR, DV_RCBR, DV_QUES, DV_PLUS, DV_PIPE,
-        KC_TRNS, KC_TRNS, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_LPRN, KC_RPRN, KC_NO, KC_NO, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+        KC_TILD, KC_EXLM, KC_AT, KC_HASH, KC_DLR,  KC_PERC,                                                         KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, LGUI(KC_BSPC),
+        KC_TRNS, KC_NO,   KC_NO, KC_NO,   KC_NO,   KC_NO,                                                           KC_NO,   DV_LCBR, DV_RCBR, DV_QUES, DV_PLUS, DV_PIPE,
+        KC_TRNS, KC_TRNS, KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,                       KC_NO,   KC_NO,   KC_NO,   KC_LPRN, KC_RPRN, KC_NO,   KC_NO,   KC_TRNS,
+                                 KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
     ),
     [2] = LAYOUT(
         KC_GRV, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_NO,
