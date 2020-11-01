@@ -14,16 +14,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
     ),
     [2] = LAYOUT(
-        KC_GRV, KC_1, KC_2, KC_3, KC_4, KC_5, KC_6, KC_7, KC_8, KC_9, KC_0, KC_NO,
-        KC_TRNS, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, DV_LBRC, DV_RBRC, DV_SLSH, DV_EQL, DV_BSLS,
-        KC_TRNS, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+        KC_GRV,  KC_1,  KC_2,  KC_3,    KC_4,    KC_5,                                                              KC_6,    KC_7,    KC_8,    KC_9,    KC_0,   KC_NO,
+        KC_TRNS, KC_NO, KC_NO, KC_NO,   KC_NO,   KC_NO,                                                             KC_NO,   DV_LBRC, DV_RBRC, DV_SLSH, DV_EQL, DV_BSLS,
+        KC_TRNS, KC_NO, KC_NO, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,                         KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,  KC_TRNS,
+                               KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,                       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
     ),
     [3] = LAYOUT(
-        LGUI(KC_GRV), RGB_TOG, KC_NO, KC_NO, KC_NO, KC_NO, KC_PGUP, KC_HOME, KC_UP, KC_END, KC_NO, KC_NO,
-        KC_TRNS, RGB_MOD, RGB_SPI, LGUI(DV_LCBR), LGUI(DV_RCBR), KC_NO, KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, KC_NO, KC_NO,
-        KC_TRNS, RGB_RMOD, RGB_SPD, LGUI(DV_LBRC), LGUI(DV_RBRC), KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_MUTE, KC_VOLD, KC_VOLU, KC_NO, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
+        LGUI(KC_GRV), RGB_TOG,  KC_NO,   KC_NO,         KC_NO,         KC_NO,                                            KC_PGUP, KC_HOME, KC_UP,   KC_END,  KC_NO, KC_NO,
+        KC_TRNS,      RGB_MOD,  RGB_SPI, LGUI(DV_LCBR), LGUI(DV_RCBR), KC_NO,                                            KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, KC_NO, KC_NO,
+        KC_TRNS,      RGB_RMOD, RGB_SPD, LGUI(DV_LBRC), LGUI(DV_RBRC), KC_NO,   KC_NO,   KC_NO,        KC_NO,   KC_NO,   KC_NO,   KC_MUTE, KC_VOLD, KC_VOLU, KC_NO, KC_TRNS,
+                                         KC_TRNS,       KC_TRNS,       KC_TRNS, KC_TRNS, KC_TRNS,      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
     )
 };
 
