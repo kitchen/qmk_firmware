@@ -4,7 +4,7 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
         KC_TAB,  DV_QUOT, DV_COMM, DV_DOT, DV_P,    DV_Y,                                                                DV_F,  DV_G,  DV_C,     DV_R, DV_L, KC_BSPC,
-        kKC_ESC, DV_A,    DV_O,    DV_E,   DV_U,    DV_I,                                                                DV_D,  DV_H,  DV_T,     DV_N, DV_S, DV_MINS,
+        KC_ESC,  DV_A,    DV_O,    DV_E,   DV_U,    DV_I,                                                                DV_D,  DV_H,  DV_T,     DV_N, DV_S, DV_MINS,
         KC_LSFT, DV_SCLN, DV_Q,    DV_J,   DV_K,    DV_X,   KC_NO,           KC_NO,               KC_NO,  KC_NO,         DV_B,  DV_M,  DV_W,     DV_V, DV_Z, KC_RSFT,
                                    KC_NO,  KC_LALT, MO(1),  LGUI_T(KC_BSPC), KC_LCTL,             KC_ENT, LT(3, KC_SPC), MO(2), KC_NO, KC_MUTE), 
     [1] = LAYOUT(
