@@ -1,3 +1,4 @@
+USER_NAME := kitchen
 OLED_DRIVER_ENABLE = no   # Enables the use of OLED displays
 ENCODER_ENABLE = yes	       # Enables the use of one or more encoders
 RGBLIGHT_ENABLE = no      # Enable keyboard RGB underglow
@@ -12,3 +13,4 @@ AUDIO_ENABLE = no
 
 ALLOW_WARNINGS = yes
 
+KITCHEN_HOME_ROW_MODS = yes
