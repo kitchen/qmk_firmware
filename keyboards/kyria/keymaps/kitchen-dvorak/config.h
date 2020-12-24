@@ -35,7 +35,6 @@
 #define NO_ACTION_FUNCTION
 #define NO_ACTION_ONESHOT
 
-#define KITCHEN_HOME_ROW_MODS
 #ifdef KITCHEN_HOME_ROW_MODS
 // Configure the global tapping term (default: 200ms)
 #    define TAPPING_TERM 180
