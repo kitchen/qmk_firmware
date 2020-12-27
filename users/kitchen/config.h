@@ -1,3 +1,4 @@
+#include "keymap_dvorak.h"
 
 #ifdef KITCHEN_HOME_ROW_MODS
 #    define HOME_SCLN MT(MOD_RALT, DV_SCLN)
