@@ -1,4 +1,3 @@
-#include "keymap_dvorak.h"
 
 #define HOME_SCLN MT(MOD_RALT, DV_SCLN)
 #define HOME_A MT(MOD_LALT, DV_A)
@@ -6,11 +5,11 @@
 #define HOME_E MT(MOD_LSFT, DV_E)
 #define HOME_U MT(MOD_LGUI, DV_U)
 
-#    define HOME_LSFT KC_NO
-#    define HOME_RSFT KC_NO
-#    define HOME_BSPC KC_BSPC
-#    define HOME_LCTL KC_NO
-#    define HOME_LALT KC_NO
+#define HOME_LSFT KC_NtcO
+#define HOME_RSFT KC_NO
+#define HOME_BSPC KC_BSPC
+#define HOME_LCTL KC_NO
+#define HOME_LALT KC_NO
 #define HOME_H MT(MOD_LGUI, DV_H)
 #define HOME_T MT(MOD_LSFT, DV_T)
 #define HOME_N MT(MOD_LCTL, DV_N)
@@ -29,3 +28,15 @@
 #define KITCHEN_L0_R3R DV_B, DV_M, DV_W, DV_V, HOME_Z, HOME_RSFT
 #define KITCHEN_THUMB_L KC_ESC, LT(1, KC_BSPC), KC_TAB
 #define KITCHEN_THUMB_R KC_ENT, LT(2, KC_SPC), KC_NO
+
+// Configure the global tapping term (default: 200ms)
+#define TAPPING_TERM 200
+
+// Prevent normal rollover on alphas from accidentally triggering mods.
+#define IGNORE_MOD_TAP_INTERRUPT
+
+// Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
+#define TAPPING_FORCE_HOLD
+
+// Apply the modifier on keys that are tapped during a short hold of a modtap
+#define PERMISSIVE_HOLD
