@@ -48,7 +48,7 @@
 // TODO: probably replace the home with cmd-left and end with cmd-right
 #define KITCHEN_L_NAV_R1R KC_PGUP, KC_HOME, KC_UP, KC_END, KC_NO, KC_NO
 #define KITCHEN_L_NAV_R2R KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, KC_NO, KC_NO
-#define KITCHEN_L_NAV_R3R LGUI(LSFT(DV_Q)), KC_MUTE, KC_VOLD, KC_VOLU, KC_NO, KC_NO
+#define KITCHEN_L_NAV_R3R LGUI(LCTL(DV_Q)), KC_MUTE, KC_VOLD, KC_VOLU, KC_NO, KC_NO
 #define KITCHEN_L_NAV_THUMB KC_TRNS, KC_TRNS, KC_TRNS
 
 // Configure the global tapping term (default: 200ms)
