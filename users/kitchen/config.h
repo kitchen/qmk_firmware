@@ -1,4 +1,5 @@
 #define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
+#define LAYOUT_reviung41_wrapper(...) LAYOUT_reviung41(__VA_ARGS__)
 
 #define HOME_SCLN MT(MOD_LALT, DV_SCLN)
 #define HOME_Q MT(MOD_LCTL, DV_Q)
@@ -53,7 +54,7 @@
 #define KITCHEN_L_NAV_R2R KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, KC_NO, KC_NO
 #define KITCHEN_L_NAV_R3R LGUI(LCTL(DV_Q)), KC_MUTE, KC_VOLD, KC_VOLU, KC_NO, KC_NO
 #define KITCHEN_L_NAV_THUMB KC_TRNS, KC_TRNS, KC_TRNS
-#define KITCHEN_L_NAV_5THUMB KC_TRNS, KC_TRNS, KC_TRNS
+#define KITCHEN_L_NAV_5THUMB KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
 
 // Configure the global tapping term (default: 200ms)
 #define TAPPING_TERM 200
